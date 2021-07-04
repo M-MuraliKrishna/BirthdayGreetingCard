@@ -17,6 +17,6 @@ class BirthdayGreetingActivity : AppCompatActivity() {
         supportActionBar?.hide();
 
         val name = intent.getStringExtra(NAME_EXTRA)
-        birthdayGreeting.text = "Happy Birthday\n$name !!"
+        birthdayGreeting.text = "Happy Birthday\n\n$name !!"
     }
 }

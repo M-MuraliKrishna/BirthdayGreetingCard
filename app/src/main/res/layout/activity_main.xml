@@ -10,14 +10,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/bg1"
-        android:scaleType="centerCrop"/>
+        android:scaleType="fitXY"/>
 
 
     <TextView
         android:id="@+id/helperMessage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="256dp"
+        android:layout_marginTop="186dp"
         android:text="@string/enter_the_name"
         android:textSize="26sp"
         android:textStyle="bold"
@@ -47,7 +47,7 @@
         android:id="@+id/createBirthdayButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="70dp"
         android:background="@drawable/btn_bg"
         android:onClick="createBirthdayCard"
         android:padding="10dp"
